@@ -1,0 +1,9 @@
+{
+  "name": "media-plan",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/media-plan",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project media-plan --web",
+  "targets": {}
+}
