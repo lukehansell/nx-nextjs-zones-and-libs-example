@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #33a;
+  padding: 5px;
+  color: white;
+}

@@ -1,4 +1,5 @@
 import './global.css';
+import { Layouts } from '@org/ui';
 
 export const metadata = {
   title: 'Welcome to campaign-dashboard',
@@ -12,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Layouts.FullWidth>
+          {children}
+        </Layouts.FullWidth>
+      </body>
     </html>
   );
 }
